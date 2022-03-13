@@ -23,7 +23,7 @@ jobs:
       run : ls -la
 
     - name: Show app Version
-      run : echp "Current app version is `cat .version`"
+      run : echo "Current app version is `cat .version`"
 
   my_deploy:
     runs-on: ubuntu-latest
