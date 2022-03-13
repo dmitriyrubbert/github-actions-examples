@@ -5,4 +5,4 @@ Status of Last Deployment:<br>
 <img src="https://github.com/dmitriyrubbert/github-actions-examples/workflows/github-actions-examples/badge.svg?branch=main"><br>
 
 
-Copyleft by Dmitriy Lazarev 2022.
+Created by Dmitriy Lazarev 2022.
