@@ -8,7 +8,7 @@
 #---------------------------------------------------------------------
 name: github-actions-examples
 env:
-  EB_PACKAGE_S3_BUCKET_NAME : "lazarev-flask-application-packages"
+  EB_PACKAGE_S3_BUCKET_NAME : "lazarev-flask"
   EB_APPLICATION_NAME       : "MyFlask"
   EB_ENVIRONMENT_NAME       : "MyFlask-env"
   DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
