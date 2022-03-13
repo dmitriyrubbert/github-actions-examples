@@ -6,7 +6,7 @@ env:
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   my_testing:
@@ -17,7 +17,7 @@ jobs:
       run : echo "Hello World from Testing job"
 
     - name: Git clone my repo
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
 
     - name: List current folder
       run : ls -la
