@@ -1,4 +1,4 @@
-name: github actions examples
+name: github-actions-examples
 env:
   APPLICATION_NAME    : "Webapp"
   DEPLOY_PACKAGE_NAME : "flask-deploy-ver-${{ github.sha }}"
